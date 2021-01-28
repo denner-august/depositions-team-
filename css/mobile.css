@@ -1,0 +1,43 @@
+@media screen and (max-width:660px){
+    .Container{
+        padding: 0px;
+        grid-template-areas: 
+        "titulo titulo"
+        "a a"
+        "b c"
+        "d e"
+        "footer footer"
+        ;
+    }
+    .a {
+        width:99%;
+        font-size: 20px;
+    }
+   
+    .item{
+        text-align: center;
+    }
+
+    .footer{
+        padding: 30px;
+    }
+}
+
+@media screen and (max-width:440px){
+    .Container{
+        grid-template-areas: 
+        "titulo"
+        "a"
+        "b"
+        "c"
+        "d"
+        "e"
+        "footer"
+        ;
+    }
+
+    .item{
+        padding: 30px;
+    }
+
+}
