@@ -26,16 +26,16 @@ a:hover{
 }
 
 
-#nome img{
+.nome img{
     border-radius: 100%;
 }
 
-#nome{
+.nome{
     display: flex;
     align-items: center;
 }
 
-#nome p{
+.nome p{
     margin-left: 5px;
 }
 
@@ -46,7 +46,7 @@ a:hover{
 }
 
 
-#posicao{
+.posicao{
     display: flex;
     flex-direction: column;
     justify-content: center;
